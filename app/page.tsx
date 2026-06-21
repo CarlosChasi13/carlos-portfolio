@@ -362,7 +362,7 @@ Emprendimientos de personas refugiadas, solicitantes de asilo y personas de inte
             </p>
           </div>
           <div className="flex gap-4">
-            <Link href="https://github.com/shinekyaw" target="_blank" rel="noopener noreferrer">
+            <Link href="https://github.com/CarlosChasi13" target="_blank" rel="noopener noreferrer">
               <Button
                 variant="ghost"
                 size="icon"
@@ -372,7 +372,7 @@ Emprendimientos de personas refugiadas, solicitantes de asilo y personas de inte
                 <span className="sr-only">GitHub</span>
               </Button>
             </Link>
-            <Link href="https://www.linkedin.com/in/shinekyawkyawaung/" target="_blank" rel="noopener noreferrer">
+            <Link href="https://www.linkedin.com/in/carlos-chasi-8246993b1/" target="_blank" rel="noopener noreferrer">
               <Button
                 variant="ghost"
                 size="icon"
@@ -382,7 +382,7 @@ Emprendimientos de personas refugiadas, solicitantes de asilo y personas de inte
                 <span className="sr-only">LinkedIn</span>
               </Button>
             </Link>
-            <Link href="mailto:shinekyawkyawaung@gmail.com">
+            <Link href="mailto:chasicarlos1a@gmail.com">
               <Button
                 variant="ghost"
                 size="icon"
