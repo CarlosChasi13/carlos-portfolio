@@ -284,7 +284,7 @@ Emprendimientos de personas refugiadas, solicitantes de asilo y personas de inte
         </div>
 
         <div className="container relative z-10">
-          <SectionHeading title="Experienci Laborl" subtitle="Mi trayectoria profesional" />
+          <SectionHeading title="Experiencia Laboral" subtitle="Mi trayectoria profesional" />
 
           <div className="mt-16">
             <Timeline />
@@ -339,7 +339,7 @@ Emprendimientos de personas refugiadas, solicitantes de asilo y personas de inte
                 <h4 className="text-lg font-medium mb-4">Estad</h4>
                 <div className="flex items-center gap-2">
                   <div className="w-3 h-3 rounded-full bg-green-500 animate-pulse"></div>
-                  <span>Abierto a las oportunidades. Disponible para oportunidades de proyecto y trbjo de tiempo completo</span>
+                  <span>Abierto a las oportunidades. Disponible para oportunidades de proyecto y trabajo de tiempo completo</span>
                 </div>
               </div>
             </GlassmorphicCard>

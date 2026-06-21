@@ -27,7 +27,7 @@ const experiences = [
   },
   {
     title: "Asistente Técnico en Servicios Informáticos",
-    company: "Startup Hub",
+    company: "Redycom",
     period: "2022",
     description: "Enrutamiento de cableado estructuraado, pruebsa funcionales  plicaciónes web y móviles. Mantenimiento de equipos y soprote técnico.",
   },

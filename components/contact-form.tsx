@@ -17,18 +17,19 @@ export function ContactForm() {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
+    const form = e.currentTarget
     setIsSubmitting(true)
 
     // Simulate form submission
     await new Promise((resolve) => setTimeout(resolve, 1500))
 
     toast({
-      title: "Message sent!",
-      description: "Thanks for reaching out. I'll get back to you soon.",
+      title: "Mensaje enviado",
+      description: "Gracias por contactarme. Te responderé muy pronto",
     })
 
     setIsSubmitting(false)
-    e.currentTarget.reset()
+    form.reset()
   }
 
   return (
