@@ -61,7 +61,7 @@ export function ProjectCard({ title, description, tags, image, demoUrl, repoUrl 
               <Button variant="ghost" size="sm" className="text-zinc-400 hover:text-white hover:bg-zinc-700/50" asChild>
                 <Link href={repoUrl} target="_blank" rel="noopener noreferrer">
                   <Github className="mr-2 h-4 w-4" />
-                  Código
+                  {repoUrl?"Repositorio":"Repositorio no disponible"}
                 </Link>
               </Button>
               <Button

@@ -232,36 +232,21 @@ export default function Portfolio() {
             />
 
             <ProjectCard
-              title="Prowess Mentorías"
-              description="An AI-powered content generation tool using OpenAI's GPT models."
-              tags={["Next.js", "OpenAI API", "Node.js", "MongoDB"]}
-              image="/placeholder.svg?height=400&width=600"
-              demoUrl="https://example.com"
-              repoUrl="https://github.com"
+              title="Dllevando"
+              description="Aplicación móvil que brinda servicios de transporte puerta a puerta para satisfaacer las necesidades
+              de movilizarse de acuerdo a las restricciones de movilidad del COVID-19"
+              tags={["QA tester", "Pruebas de APIs", "Pruebas Funcionales"]}
+              image="/Dllevando_logo.png"
+              demoUrl="http://www.dllevando.com/"
+              repoUrl=""
             />
             <ProjectCard
-              title="Fitness Tracker"
-              description="A mobile-first fitness tracking application with data visualization."
-              tags={["React Native", "TypeScript", "D3.js", "Firebase"]}
-              image="/placeholder.svg?height=400&width=600"
-              demoUrl="https://example.com"
-              repoUrl="https://github.com"
-            />
-            <ProjectCard
-              title="Weather Dashboard"
-              description="A beautiful weather dashboard with forecasts and historical data."
-              tags={["React", "Weather API", "Chart.js", "Styled Components"]}
-              image="/placeholder.svg?height=400&width=600"
-              demoUrl="https://example.com"
-              repoUrl="https://github.com"
-            />
-            <ProjectCard
-              title="Portfolio Website"
-              description="This portfolio website built with Next.js and Tailwind CSS."
+              title="Portafolio Website"
+              description="Este poertafolio web está desaarollado con Next.js y Tailwind CSS."
               tags={["Next.js", "Tailwind CSS", "Framer Motion", "TypeScript"]}
-              image="/placeholder.svg?height=400&width=600"
-              demoUrl="https://example.com"
-              repoUrl="https://github.com"
+              image="/Portafolio.png?height=400&width=600"
+              demoUrl="https://carlos-portafolio-30896dps.netlify.app/"
+              repoUrl="https://github.com/CarlosChasi13/carlos-portfolio"
             />
             <ProjectCard
               title="Prowess Mentorías"
