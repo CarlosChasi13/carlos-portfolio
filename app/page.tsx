@@ -12,6 +12,7 @@ import { MouseFollower } from "@/components/mouse-follower"
 import { ScrollProgress } from "@/components/scroll-progress"
 import { SectionHeading } from "@/components/section-heading"
 import { GlassmorphicCard } from "@/components/glassmorphic-card"
+import { CertificateCard } from "@/components/certificate-card"
 
 export default function Portfolio() {
   return (
@@ -217,7 +218,7 @@ export default function Portfolio() {
         </div>
 
         <div className="container relative z-10">
-          <SectionHeading title="Proyectos" subtitle="Algunos traabajos recientes" />
+          <SectionHeading title="Proyectos" subtitle="Algunos trabajos recientes" />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
             <ProjectCard
@@ -288,6 +289,46 @@ Emprendimientos de personas refugiadas, solicitantes de asilo y personas de inte
 
           <div className="mt-16">
             <Timeline />
+          </div>
+        </div>
+      </section>
+
+      {/* Sección de Certificados */}
+      <section id="certicates" className="py-32 relative">
+        <div className="absolute inset-0 z-0">
+          <div className="absolute top-1/4 left-1/3 w-64 h-64 bg-cyan-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
+          <div className="absolute bottom-1/3 right-1/4 w-64 h-64 bg-sky-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
+        </div>
+
+        <div className="container relative z-10">
+          <SectionHeading title="Certificados" subtitle="Cursos seguidos" />
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
+            <CertificateCard
+            image=""
+            pdfUrl="certificados/Modelado_de_amenazas.pdf"
+            title="Introducción al modelado de amenazas"
+            duration="2 horas"
+            modality="en línea"
+            date="27 de Enero del 2025"
+            />
+            <CertificateCard
+            image=""
+            pdfUrl="certificados/CERTIFICADO CURSO CYBER SEGURIDA_Chasi Eugenio Carlos Alberto.pdf"
+            title="Fundamentos de Ciberseguridad, Ciencia de Datos y Machine Learning
+Aplicado a la Ciberseguridad"
+            duration="12 horas"
+            modality="presencial"
+            date="15 de Marzo del 2025"
+            />
+            <CertificateCard
+            image=""
+            pdfUrl="certificados/Introduccion_a_IA.pdf"
+            title="Introducción a los conceptos de inteligencia artificial"
+            duration="2 horas"
+            modality="en línea"
+            date="21 de Junio del 2026"
+            />
           </div>
         </div>
       </section>
