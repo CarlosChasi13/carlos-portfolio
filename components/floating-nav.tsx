@@ -31,6 +31,7 @@ export function FloatingNav() {
     { name: "Habilidades", href: "#skills" },
     { name: "Proyectos", href: "#projects" },
     { name: "Trayectoria", href: "#experience" },
+    { name: "Cursos", href: "#certicates" },
     { name: "Contacto", href: "#contact" },
   ]
 

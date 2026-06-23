@@ -234,7 +234,7 @@ export default function Portfolio() {
             <ProjectCard
               title="Dllevando"
               description="Aplicación móvil que brinda servicios de transporte puerta a puerta para satisfaacer las necesidades
-              de movilizarse de acuerdo a las restricciones de movilidad del COVID-19"
+              de movilizarse de acuerdo a las restricciones de movilidad del COVID-19."
               tags={["QA tester", "Pruebas de APIs", "Pruebas Funcionales"]}
               image="/Dllevando_logo.png"
               demoUrl="http://www.dllevando.com/"
