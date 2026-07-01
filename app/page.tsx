@@ -44,7 +44,7 @@ export default function Portfolio() {
               </span>
             </h1>
             <p className="text-xl text-zinc-400 max-w-[600px]">
-              Creo soluciones informáticas para problems de laa vida diaria.
+              Creo soluciones informáticas para problemas de la vida diaria.
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
               <Button className="relative overflow-hidden group bg-gradient-to-r from-blue-500 to-cyan-500 border-0">
@@ -223,7 +223,7 @@ export default function Portfolio() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
             <ProjectCard
               title="Radio Latacunga App"
-              description="Una aplicación móvil que permite a los usuarios sintonizaar y escuhcar en vivo a la emisor
+              description="Una aplicación móvil que permite a los usuarios sintonizar y escuchar en vivo a la emisora
               y obtener información acerca de la insitutción. Desarrollda con Flutter"
               tags={["Flutter", "Dart", "App-móvil", "Stripe"]}
               image="/Radio_latacunga_logo.jpg?height=400&width=600"
@@ -242,16 +242,16 @@ export default function Portfolio() {
             />
             <ProjectCard
               title="Portafolio Website"
-              description="Este poertafolio web está desaarollado con Next.js y Tailwind CSS."
-              tags={["Next.js", "Tailwind CSS", "Framer Motion", "TypeScript"]}
+              description="Este portafolio web está desarollado con Next.js y Tailwind CSS."
+              tags={["Next.js", "Tailwind CSS", "TypeScript"]}
               image="/Portafolio.png?height=400&width=600"
               demoUrl="https://carlos-portafolio-30896dps.netlify.app/"
               repoUrl="https://github.com/CarlosChasi13/carlos-portfolio"
             />
             <ProjectCard
               title="Prowess Mentorías"
-              description="Un sistema web para almcenar, recolectar datos, guardar información y generar recordatorios para emprendedores
-              y personas asocidas al proyecto “Asistencia Técnica para el fortalecimiento de
+              description="Un sistema web para almacenar, recolectar datos, guardar información y generar recordatorios para emprendedores
+              y personas asociadas al proyecto “Asistencia Técnica para el fortalecimiento de
 Emprendimientos de personas refugiadas, solicitantes de asilo y personas de interés de ACNUR”,"
               tags={["React", "MySql", "Tailwind CSS", "Jvasacript"]}
               image="/Prowess_ec.png?height=400&width=600"

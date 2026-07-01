@@ -5,13 +5,6 @@ import { useMobile } from "@/hooks/use-mobile"
 
 const experiences = [
   {
-    title: "Operario",
-    company: "TallerdeEnderezada“MaestroCarlosChasi”",
-    period: "2025 - Presente",
-    description:
-      "Ensamblaje y reparación estructural de vehículos siniestrados. Enderezado de chasis, cabinas y componentes metálicos. ",
-  },
-  {
     title: "Desarrollador Full Stack",
     company: "Mivilsoft.",
     period: "2024 - 2025",
