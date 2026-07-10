@@ -13,7 +13,6 @@ import { ScrollProgress } from "@/components/scroll-progress"
 import { SectionHeading } from "@/components/section-heading"
 import { GlassmorphicCard } from "@/components/glassmorphic-card"
 import { CertificateCard } from "@/components/certificate-card"
-import { descargarCv } from "@/lib/utils"
 import DownloadCvButton from "@/components/cv_download"
 
 export default function Portfolio() {
