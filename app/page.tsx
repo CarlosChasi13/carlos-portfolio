@@ -13,6 +13,8 @@ import { ScrollProgress } from "@/components/scroll-progress"
 import { SectionHeading } from "@/components/section-heading"
 import { GlassmorphicCard } from "@/components/glassmorphic-card"
 import { CertificateCard } from "@/components/certificate-card"
+import { descargarCv } from "@/lib/utils"
+import DownloadCvButton from "@/components/cv_download"
 
 export default function Portfolio() {
   return (
@@ -137,18 +139,26 @@ export default function Portfolio() {
             <div className="space-y-6">
               <GlassmorphicCard>
                 <p className="text-lg text-zinc-300">
-                  Soy un Ingeniero de Software entusiasta y con ganas de aprender, tengo experiencia en
-                  el desaarrollo de aplicaciones web y móviles. He trabajado mucho en frontend
-                  principalmente con React y Next.js, aunque también poseo conocimientos de arquitectura
-                  y desaarrollo de Backend.
+                  Ingeniero de Software graduado de la Universidad de las Fuerzas Ar-
+                  madas ESPE. Profesional proactivo con experiencia en el desarrollo y
+                  mantenimiento de sistemas informáticos y soluciones digitales automa-
+                  tizadas.
                 </p>
                 <p className="text-lg text-zinc-300 mt-4">
+                  Cuento con habilidades sólidas en gestión de bases de datos,
+                  desarrollo frontend y backend, análisis de requerimientos técnicos y op-
+                  timización de procesos administrativos para mejorar la eficiencia orga-
+                  nizacional. Poseo experiencia en proyectos de gestión empresarial y aca-
+                  démica con soluciones web y aplicaciones móviles.
                   He participado en proyectos de gestión empresarial y académica con soluciones web
                   y aplicaciones móviles.
                 </p>
                 <p className="text-lg text-zinc-300 mt-4">
-                  En mis tiempos libres investigo y aprendo nuevas cosas dentro y fuera de mi área, como
-                  diseño de interfaces, edición de video, mecánica de estructura de automóviles y avances en IA.
+                  Me destaco por mi
+                  capacidad de aprendizaje continuo, adaptabilidad a diferentes entornos
+                  tecnológicos, entrega de productos de alta calidad y facilidad para el tra-
+                  bajo en equipo. Busco una oportunidad que me permita seguir creciendo
+                  profesionalmente y aportar valor mediante soluciones tecnológicas.
                 </p>
 
                 <div className="grid grid-cols-2 gap-4 mt-8">
@@ -166,12 +176,12 @@ export default function Portfolio() {
                   </div>
                   <div className="space-y-1">
                     <div className="text-sm text-zinc-500">Disponible</div>
-                    <div className="font-medium text-green-500">Abierto a cualquier posibilidad</div>
+                    <div className="font-medium text-green-500">Listo para trabajar</div>
                   </div>
                 </div>
 
                 <div className="mt-8">
-                  <Button className="bg-zinc-800 hover:bg-zinc-700 text-white">Descargar CV</Button>
+                  <DownloadCvButton />
                 </div>
               </GlassmorphicCard>
             </div>
@@ -232,6 +242,15 @@ export default function Portfolio() {
             />
 
             <ProjectCard
+              title="Página Web Equinox"
+              description="Sitio web para presentar inofrmción, productos,servicios y facilitar la comunicación con clientes para la empresa Equinox"
+              tags={["React", "CSS", "Javascript", "Typescript"]}
+              image="/Equinox_logo.jpg?height=400&width=600"
+              demoUrl="https://landing-page-innova.vercel.app/"
+              repoUrl="https://github.com/mrmagicengineer-hash/LandingPage-Innova"
+            />
+
+            <ProjectCard
               title="Dllevando"
               description="Aplicación móvil que brinda servicios de transporte puerta a puerta para satisfaacer las necesidades
               de movilizarse de acuerdo a las restricciones de movilidad del COVID-19."
@@ -253,7 +272,7 @@ export default function Portfolio() {
               description="Un sistema web para almacenar, recolectar datos, guardar información y generar recordatorios para emprendedores
               y personas asociadas al proyecto “Asistencia Técnica para el fortalecimiento de
 Emprendimientos de personas refugiadas, solicitantes de asilo y personas de interés de ACNUR”,"
-              tags={["React", "MySql", "Tailwind CSS", "Jvasacript"]}
+              tags={["React", "MySql", "Tailwind CSS", "Javascript"]}
               image="/Prowess_ec.png?height=400&width=600"
               demoUrl="https://mentorias.prowessec.com/"
               repoUrl="https://github.com/Modulo-Mentorias-Prowess/web_build_prowess_mentorias"
@@ -362,10 +381,10 @@ Aplicado a la Ciberseguridad"
               </div>
 
               <div className="mt-8 pt-8 border-t border-zinc-800">
-                <h4 className="text-lg font-medium mb-4">Estad</h4>
+                <h4 className="text-lg font-medium mb-4">Estadp</h4>
                 <div className="flex items-center gap-2">
                   <div className="w-3 h-3 rounded-full bg-green-500 animate-pulse"></div>
-                  <span>Abierto a las oportunidades. Disponible para oportunidades de proyecto y trabajo de tiempo completo</span>
+                  <span>Disponible para oportunidades de proyecto y trabajo de tiempo completo</span>
                 </div>
               </div>
             </GlassmorphicCard>
