@@ -242,7 +242,7 @@ export default function Portfolio() {
 
             <ProjectCard
               title="Página Web Equinox"
-              description="Sitio web para presentar inofrmción, productos,servicios y facilitar la comunicación con clientes para la empresa Equinox"
+              description="Sitio web corporativo de Equinox que ofrece información sobre la empresa y sus servicios y facilita la comunicación con clientes mediante una experiencia accesible e intuitiva."
               tags={["React", "CSS", "Javascript", "Typescript"]}
               image="/Equinox_logo.jpg?height=400&width=600"
               demoUrl="https://landing-page-innova.vercel.app/"
